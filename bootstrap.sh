@@ -609,7 +609,7 @@ saltmaster_bootstrap() {
     pkill -9 salt-minion
     $SUDO service salt-master start
     $SUDO service salt-minion start
-    sleep 15
+    sleep 150
 }
 
 # Init salt master
